@@ -1,1 +1,1 @@
-# prottotype-registry
+# prototype-registry
