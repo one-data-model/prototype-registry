@@ -1,1 +1,1 @@
-- [ ] Please tick this box to indicate that your submission has a [BSD-3 software license]()
+- [ ] Please tick this box to indicate that your submission has a [BSD-3 software license](https://opensource.org/licenses/BSD-3-Clause)
