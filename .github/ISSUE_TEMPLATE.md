@@ -6,7 +6,7 @@
   - [ ] Product definition
   
 ### 2. Confirm Software License
-  - [ ] Tick this box confirming that your submission has included a [BSD-3 Software License](https://opensource.org/licenses/BSD-3-Clause).
+  - [ ] Tick this box confirming that your submission has included a [BSD-3 Software License](https://github.com/one-data-model/prototype-registry/blob/dev/LICENSE).
   
 
 Concept            | Description
