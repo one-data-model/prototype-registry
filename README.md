@@ -1,4 +1,4 @@
-# prototype-registry
+# One DataModel Registration Process
 
 Submitter  |    Administrator   | OneDM Working Group  |    Description
 -----------|--------------------|----------------------|---------------------
