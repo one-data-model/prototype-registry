@@ -1,1 +1,1 @@
-- [ ] Please tick this box to indicate that your submission has a [BSD-3 software license](https://opensource.org/licenses/BSD-3-Clause)
+- [ ] Please tick this box to indicate that your submission has a [BSD-3 software license](https://github.com/one-data-model/prototype-registry/blob/dev/LICENSE)
