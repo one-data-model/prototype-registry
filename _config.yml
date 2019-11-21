@@ -1,11 +1,12 @@
-# theme: jekyll-theme-modernist
+# Configuration file for One Data Model Registry
+
 title: One Data Model Registry
-theme: minima
+theme: jekyll-theme-modernist
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. 
   
 # social links
-twitter_username:
-github_username:
+twitter_username: onedatamodel
+github_username:  onedatamodel@domain.org
 
 show_excerpts: true # set to false to remove excerpts on the homepage
