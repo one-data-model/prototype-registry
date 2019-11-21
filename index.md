@@ -1,5 +1,5 @@
 
-<table class="max-width-50">
+<table>
   <caption>One Data Model Registry</caption>
   <thead>
     <tr class="height-20">
@@ -23,7 +23,7 @@
       <td>Tag4</td>      
     </tr>
     <tr>
-      <td><a href="https://raw.githubusercontent.com/one-data-model/prototype-registry/verification/mjk-examples/IPSO/ipso3300-new.sdf.json">URN</a?</td> 
+      <td><a href="https://raw.githubusercontent.com/one-data-model/prototype-registry/verification/mjk-examples/IPSO/ipso3300-new.sdf.json">URN</a></td> 
       <td>3300</td>
       <td>IPSO</td>
       <td>Tag3</td>
