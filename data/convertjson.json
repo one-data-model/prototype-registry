@@ -1,0 +1,263 @@
+[
+  {
+    "id": "TBD",
+    "Name": "TBD",
+    "URN": "TBD",
+    "Version": "20200507",
+    "Type": "TBD",
+    "Submitter": "TBD",
+    "Description": "TBD1."
+  },
+  {
+    "id": "TBD",
+    "Name": "TBD",
+    "URN": "TBD",
+    "Version": "20200508",
+    "Type": "TBD",
+    "Submitter": "TBD",
+    "Description": "TBD2."
+  },
+  {
+    "id": "#8",
+    "Name": "Accelerometer",
+    "URN": "URN",
+    "Version": "20191116",
+    "Type": "Object",
+    "Submitter": "IPSO",
+    "Description": "This IPSO object can be used to represent a 1-3 axis accelerometer."
+  },
+  {
+    "id": "",
+    "Name": "Acidity",
+    "URN": "URN",
+    "Version": "20191116",
+    "Type": "Object",
+    "Submitter": "IPSO",
+    "Description": "This IPSO object should be used to report an acidity measurement of a liquid. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor. An example measurement unit is pH."
+  },
+  {
+    "id": "",
+    "Name": "activity",
+    "URN": "URN",
+    "Version": "2019-03-04",
+    "Type": "Object",
+    "Submitter": "OCF",
+    "Description": "This Resource describes the Properties associated with a person's physical activity. All Properties are read-only values that are provided by the server. When range (from \\\"oic. r. baseresource\\\") is omitted the default is 0 to +MAXFLOAT."
+  },
+  {
+    "id": "",
+    "Name": "Actuation",
+    "URN": "URN",
+    "Version": "20191116",
+    "Type": "Object",
+    "Submitter": "IPSO",
+    "Description": "This IPSO object is dedicated to remote actuation such as ON/OFF action or dimming. A multi-state output can also be described as a string. This is useful to send pilot wire orders for instance. It also provides a resource to reflect the time that the device has been switched on."
+  },
+  {
+    "id": "",
+    "Name": "Addressable Text Display",
+    "URN": "URN",
+    "Version": "20191116",
+    "Type": "Object",
+    "Submitter": "IPSO",
+    "Description": "This IPSO object is used to send text to a text-only or text mode graphics display. Writing a string of text to the text resource causes it to be displayed at the selected X and Y locations on the display. If X or Y are set to a value greater than the size of the display, the position \\\"wraps around\\\" to the modulus of the setting and the display size. Likewise, if the text string overflows the display size, the text \\\"wraps around\\\" and displays on the next line down or, if the last line has been written, wraps around to the top of the display. Brightness and Contrast controls are provided to allow control of various display types including STN and DSTN type LCD character displays. Writing an empty payload to the Clear Display resource causes the display to be erased."
+  },
+  {
+    "id": "",
+    "Name": "airflow",
+    "URN": "URN",
+    "Version": "20190215",
+    "Type": "Object",
+    "Submitter": "OCF",
+    "Description": "This Resource describes Properties associated with air flow. The Property \\\"supporteddirections\\\" is the set of valid values for the direction property for a particular instance of this Resource Type. The Property \\\"direction\\\" is the directionality of the air flow if applicable, if Property \\\"supporteddirections\\\" is also present it must be a value from that set. The values of Property \\\"direction\\\" are dependent on the capabilities of the unit. The Property \\\"speed\\\" is an integer representing the current speed level for the unit. The Property \\\"range\\\" is an array of the min,max values for the speed level. If not present the \\\"range\\\" defaults to [0,100]. Property \\\"automode\\\" is the status of the automode feature; Off means automode is not enabled, On means automode is active and the speed is automatically controlled by the Device."
+  },
+  {
+    "id": "",
+    "Name": "airquality",
+    "URN": "URN",
+    "Version": "20190613",
+    "Type": "Object",
+    "Submitter": "OCF",
+    "Description": "This Resource describes a qualitative or measured contaminant that can be used to infer Air Quality. The Property \\\"valueType\\\" indicates a qualitative or measured reading within the contaminantvalue Property. The Property \\\"contaminantvalue\\\" can contain the actual sensed value with units per contaminant type. Qualitative is a representative value within the range provided where the minimum value is minimum contamination and maximum value is maximum contamination for the specific contaminant. The Property \\\"contaminantvalue\\\" contains the actual measured or qualitative level. The Property \\\"range\\\" contains the allowed range for the value that is being reported. If valueType is 'Measured' then the units for the contaminant types are as follows: Methanol (also known as Formaldehyde): CH2O (ug/m^3), Carbon Dioxide: CO2 (ppm), Carbon Monoxide: CO (ppm), Particulate Matter (less than 1 micron in diameter): PM1 (ug/m^3), Particulate Matter (less than 2. 5 microns in diameter): PM2. 5 (ug/m^3), Particulate Matter (less than 10 microns in diameter): PM10 (ug/m^3), Volatile Organic Compounds: VOC (ug/m^3)."
+  },
+  {
+    "id": "#11",
+    "Name": "alarm",
+    "URN": "URN",
+    "Version": "20200121\n 2019-03-04",
+    "Type": "Object",
+    "Submitter": "OCF",
+    "Description": "This Resource describes the Properties associated with alarm status."
+  },
+  {
+    "id": "",
+    "Name": "altimeter",
+    "URN": "URN",
+    "Version": "20190225",
+    "Type": "Object",
+    "Submitter": "OCF",
+    "Description": "This Resource describes the properties associated with altimeter. The Property \\\"alt\\\" is the distance (metres) above or below 'local' sea-level."
+  },
+  {
+    "id": "",
+    "Name": "Altitude",
+    "URN": "URN",
+    "Version": "20191116",
+    "Type": "Object",
+    "Submitter": "IPSO",
+    "Description": "This IPSO object should be used with an altitude sensor to report altitude above sea level in meters. Note that Altitude can be calculated from the measured pressure given the local sea level pressure.  It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor. An example measurement unit is meters."
+  },
+  {
+    "id": "",
+    "Name": "Analog Input",
+    "URN": "URN",
+    "Version": "20191002",
+    "Type": "Object",
+    "Submitter": "IPSO",
+    "Description": "Generic analog input for non-specific sensors"
+  },
+  {
+    "id": "",
+    "Name": "Analog Output",
+    "URN": "URN",
+    "Version": "20191002",
+    "Type": "Object",
+    "Submitter": "IPSO",
+    "Description": "This IPSO object is a generic object that can be used with any kind of analog output interface."
+  },
+  {
+    "id": "",
+    "Name": "audio",
+    "URN": "URN",
+    "Version": "20190620",
+    "Type": "Object",
+    "Submitter": "OCF",
+    "Description": "This Resource defines basic audio control functions. The Property \\\"volume\\\" is an integer containing a percentage [0,100]. A volume of 0 (zero) means no sound produced. A volume of 100 means maximum sound production. The Property \\\"mute\\\" is implemented as a boolean. A mute value of true means that the device is muted (no audio). A mute value of false means that the device is not muted (audio)."
+  },
+  {
+    "id": "",
+    "Name": "Audio Clip",
+    "URN": "URN",
+    "Version": "20191116",
+    "Type": "Object",
+    "Submitter": "IPSO",
+    "Description": "This IPSO object should be used for a speaker that plays a pre-recorded audio clip or an audio output that is sent elsewhere. For example, an elevator which announces the floor of the building. A resource is provided to store the clip, a dimmer resource controls the relative sound level of the playback, and a duration resource limits the maximum playback time. After the duration time is reached, any remaining samples in the clip are ignored, and the clip player will be ready to play another clip."
+  },
+  {
+    "id": "",
+    "Name": "",
+    "URN": "URN",
+    "Version": "version",
+    "Type": "type",
+    "Submitter": "organization",
+    "Description": "title/description"
+  },
+  {
+    "id": "#9",
+    "Name": "?",
+    "URN": "URN",
+    "Version": "20190524",
+    "Type": "Object",
+    "Submitter": "IPSO",
+    "Description": "Example ODM model for a relatively simple composed thing using\\n    IPSO Smart Object Components"
+  },
+  {
+    "id": "",
+    "Name": "",
+    "URN": "URN",
+    "Version": "version",
+    "Type": "type",
+    "Submitter": "organization",
+    "Description": "title/description"
+  },
+  {
+    "id": "",
+    "Name": "oic.r.switch.binary",
+    "URN": "URN",
+    "Version": "20190530",
+    "Type": "Object",
+    "Submitter": "OCF",
+    "Description": "This odmObject describes a binary switch (on/off).\\nThe Property \\\"value\\\" is a boolean.\\nA value of 'true' means that the switch is on.\\nA value of 'false' means that the switch is off.\\n"
+  },
+  {
+    "id": "",
+    "Name": "oic.r.temperature",
+    "URN": "URN",
+    "Version": "20190531",
+    "Type": "Object",
+    "Submitter": "OCF",
+    "Description": "Example ODM model to illustrate the use of the odmView class"
+  },
+  {
+    "id": "#10",
+    "Name": "oic.d.washer",
+    "URN": "URN",
+    "Version": "20190530",
+    "Type": "Thing",
+    "Submitter": "OCF",
+    "Description": "washing machine. Note: this Model contains several objects."
+  },
+  {
+    "id": "",
+    "Name": "",
+    "URN": "URN",
+    "Version": "version",
+    "Type": "type",
+    "Submitter": "organization",
+    "Description": "title/description"
+  },
+  {
+    "id": "#9",
+    "Name": "?",
+    "URN": "URN",
+    "Version": "20190424",
+    "Type": "Object",
+    "Submitter": "ST",
+    "Description": "Example file for ODM Simple JSON Definition Format"
+  },
+  {
+    "id": "",
+    "Name": "",
+    "URN": "URN",
+    "Version": "version",
+    "Type": "type",
+    "Submitter": "organization",
+    "Description": "title/description"
+  },
+  {
+    "id": "",
+    "Name": "Level Control",
+    "URN": "URN",
+    "Version": "20190504",
+    "Type": "Object",
+    "Submitter": "ZCL",
+    "Description": "Example ODM model for the ZCL Level cluster"
+  },
+  {
+    "id": "#9",
+    "Name": "?",
+    "URN": "URN",
+    "Version": "20190504",
+    "Type": "Data",
+    "Submitter": "ZCL",
+    "Description": "Example ODM model for the ZCL Level cluster"
+  },
+  {
+    "id": "",
+    "Name": "",
+    "URN": "URN",
+    "Version": "version",
+    "Type": "type",
+    "Submitter": "organization",
+    "Description": "title/description"
+  },
+  {
+    "id": "",
+    "Name": "Fan",
+    "URN": "URN",
+    "Version": "20190820",
+    "Type": "Object",
+    "Submitter": "ICA",
+    "Description": "Example file for ICA Fan definition in OneDM SDF format"
+  }
+]
